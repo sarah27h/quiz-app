@@ -1,4 +1,4 @@
-React Todo list app
+Quiz App
 ===============================
 
 ## Table of Contents
@@ -10,14 +10,13 @@ React Todo list app
 
 ## About the Project
 
-This project is a single page application built using React.js to work as an interactive Todo list. 
 - user-friendly interface
 - 100% Responsive for all screen sizes and 
 - Accessible for screen reader users with 
 - cross-browsers
 
 ## Project Wireframe
-![alt project wireframe](https://raw.githubusercontent.com/sarah27h/todo-app/master/project_wireframe.png)
+![alt project wireframe](https://raw.githubusercontent.com/sarah27h/quiz-app/master/project_wireframe.png)
 
 
 
