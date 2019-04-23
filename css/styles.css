@@ -145,3 +145,9 @@ video {
     width: 85%;
     padding: 10px;
 }
+
+
+/* quiz controls */
+.quiz_controls {
+    margin-bottom: 20px;
+}
