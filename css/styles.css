@@ -110,3 +110,38 @@ video {
 .score_section {
     width: 100%;
 }
+
+
+/* quiz container */
+.quiz_container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#question {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.choice_container {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #eee;
+}
+
+.choice_container .choice_prefix {
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    background-color: #02b3e4;
+    color: #fff;
+}
+
+.choice_container .choice_text {
+    width: 85%;
+    padding: 10px;
+}
