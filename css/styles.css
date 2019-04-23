@@ -10,6 +10,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    /* from css-tricks.com*/
+    /* 100% of the viewport height */
+    /* to adjust footer at end of page */
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
 }
 
 img,
@@ -19,9 +25,11 @@ video {
 
 .container {
     padding: 20px;
-    /* 95% of the viewport height */
+    /* from css-tricks.com*/
+    /* Prevent Chrome, Opera, and Safari from letting these items
+     shrink to smaller than their content's default minimum size. */
     /* to adjust footer at end of page */
-    height: 95vh;
+    flex: 1 0 auto;
 }
 
 .text_center {
@@ -65,4 +73,14 @@ video {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+}
+
+
+/* footer */
+.footer {
+    /* from css-tricks.com*/
+    /* Prevent Chrome, Opera, and Safari from letting these items
+     shrink to smaller than their content's default minimum size. */
+    /* to adjust footer at end of page */
+    flex-shrink: 0;
 }
