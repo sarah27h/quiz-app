@@ -84,3 +84,13 @@ video {
     /* to adjust footer at end of page */
     flex-shrink: 0;
 }
+
+
+/* start page */
+.start_page {
+    display: flex;
+    max-width: 400px; /* to force 2 buttons to wrap*/
+    flex-wrap: wrap; /* to get elements wrap you should add max-width to parent */
+    justify-content: center;
+    margin: 0 auto;
+}
