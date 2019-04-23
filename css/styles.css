@@ -94,3 +94,19 @@ video {
     justify-content: center;
     margin: 0 auto;
 }
+
+
+/* top quiz panel */
+.top_Quiz_panel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.question_num {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.score_section {
+    width: 100%;
+}
