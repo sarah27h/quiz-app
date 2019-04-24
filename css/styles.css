@@ -1,6 +1,6 @@
 /* gerneral */
 * {
-	margin: 0;
+    margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
 
 img,
 video {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 .container {
@@ -149,5 +149,64 @@ video {
 
 /* quiz controls */
 .quiz_controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.controls_btns {
+    width: 100%;
     margin-bottom: 20px;
+}
+
+
+/* media queries */
+    /* for medium screens */
+@media screen and (min-width: 450px){
+    /* to display control btns and submit btn in the one line -nowrap- */
+    .quiz_controls {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .controls_btns {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px){
+    /* to display top panel elements in the one line -nowrap- */
+    .question_num {
+        width: 50%;
+    }
+
+    .score_section {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:601px) {
+    /* to display every 2 choice in the one line */
+    .quiz_container {
+        justify-content: space-between;
+    }
+
+    .choice_container {
+        width: 45%;
+    }
+}
+
+    /* for large screens */
+@media screen and (min-width: 900px) {
+    /* this layout use mostly fluid pattern 
+    so we center container in large screens */
+	.container {
+    	width: 900px;
+    	padding: 30px;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+	
 }
